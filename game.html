@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="favicon.svg">
+<title>Learning Hub — Learn Anywhere</title>
+<meta name="description" content="Explore a flexible online learning hub for digital lessons, training, and remote study.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home">
+      <img src="assets/img/logo epicrush.png" alt="Online education icon"><span>Learn Anywhere</span>
+    </a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" >Home</a>
+      <a href="game.html" class="active">Learning Hub</a>
+      <a href="leaderboard.html" >Progress</a>
+      <a href="about.html" >About</a>
+      <a href="blog.html" >Blog</a>
+      <a href="faq.html" >FAQ</a>
+      <a href="privacy.html" >Privacy</a>
+      <a href="terms.html" >Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="right">
+      <a class="btn ghost" data-nav-toggle>Menu</a>
+      <a class="btn" href="game.html">Play</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>Learning Hub: Start a New Lesson</h1>
+    <p>Online education brings lessons, training, and degree programs to you through digital platforms and the internet. Use this interactive space to build knowledge step by step, revisit key ideas, and keep your learning moving wherever your day takes you.</p>
+    <div class="kudos">
+      <span class="pill">Self-paced</span>
+      <span class="pill">Instructor-led</span>
+      <span class="pill">Skills training</span>
+      <span class="pill">Degree programs</span>
+    </div>
+  </div>
+</header>
+
+<section class="section container">
+  <div class="card game-card">
+    <canvas id="quantum-canvas" width="900" height="520"></canvas>
+    <div class="spacer-12"></div>
+    <div>
+      <button class="btn" id="qd-pause">Pause (P)</button>
+      <button class="btn" id="qd-restart">Save progress & Restart</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>© 2025 Learn Anywhere. All rights reserved.</div>
+    <div class="footer-badges">
+      <span class="badge">Flexible Study • Digital Access</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/game.js"></script>
+</body>
+</html>
